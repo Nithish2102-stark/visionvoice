@@ -1,0 +1,15 @@
+# VisionVoice Core Dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+pytesseract>=0.3.10
+SpeechRecognition>=3.10.0
+scipy>=1.10.0
+langdetect>=1.0.9
+deep-translator>=1.11.4
+python-dotenv>=1.0.0
+
+# Optional / Platform specific:
+# PyAudio is used for live microphone streaming (install via brew install portaudio && pip install pyaudio on Mac)
+# RPi.GPIO or gpiozero are used when deployed on Raspberry Pi
+# picamera2 is used on Raspberry Pi with Camera Module 3
